@@ -1,0 +1,21 @@
+# Data produced by the pipeline
+staging/
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Airflow local files
+airflow.cfg
+airflow.db
+logs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+._*
+Thumbs.db
